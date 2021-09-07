@@ -1,0 +1,25 @@
+[package]
+name = "derive_jface"
+version = "0.1.0"
+edition = "2018"
+authors = ["Tiberius <tican@protonmail.com>"]
+description = "Java Native Interface to rust Native Objects (derive)"
+readme = "Readme.md"
+keywords = [
+    "ffi",
+    "jni",
+    "java",
+]
+categories = ["api-bindings"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/tiberiuscn/jnino-rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = "1.0"
+
+[lib]
+proc-macro = true
