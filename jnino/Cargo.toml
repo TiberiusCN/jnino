@@ -1,6 +1,6 @@
 [package]
 name = "jnino"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2018"
 authors = ["Tiberius <tican@protonmail.com>"]
 description = "Java Native Interface to rust Native Objects"
