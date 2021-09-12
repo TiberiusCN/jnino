@@ -12,7 +12,7 @@ keywords = [
 ]
 categories = ["api-bindings"]
 license = "MIT/Apache-2.0"
-repository = "https://github.com/tiberiuscn/jnino-rs"
+repository = "https://github.com/tiberiuscn/jnino"
 
 [dependencies]
 derive_jface = { version = "0.1", path = "../derive_jface" }
